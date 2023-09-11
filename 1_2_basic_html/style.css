@@ -1,20 +1,28 @@
 
-body {
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 16px;
-  padding: 1em;
-}
+        .My_table {
+            width: 100%;
+            border-collapse: collapse;
+        }
 
-h1 {
-  font-size: 3em;
-  margin: 0.25em 0;
-}
+        .My_table th, .My_table td {
+            border: 1px solid #ddd;
+            text-align: left;
+            padding: 8px;
+        }
 
-h3 {
-  font-size: 2em;
-  margin: 0.25em 0;
-}
+        .My_table th {
+            background-color: #f2f2f2;
+        }
 
-p {
-  font-size: 1em;
-}
+        .My_table tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        .My_table tr:nth-child(odd) {
+            background-color: #ffffff;
+        }
+
+        img {
+            max-width: 50px;
+            max-height: 50px;
+        }
