@@ -5,7 +5,7 @@ const width = window.innerWidth * 0.7,
 
 const formatDate = d3.timeFormat("%Y"); // Use the year format for x-axis labels
 
-// LOAD DATA
+// LOAD DATA Brent_Price.csv
 d3.csv("../data/Brent_Price.csv", d => {
   return {
     Price: +d.Price,
